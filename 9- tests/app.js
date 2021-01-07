@@ -109,3 +109,38 @@ if (nom === 'anass' && age === 23) {
 */
 
 // solution
+
+// const nom = 'Harrat Junior';
+const age1 = 8;
+
+// Mehd's solution
+if (age1 >= 6 && age1 <= 7) {
+  //? 10 >= true && 10 <= 7 false ==> false
+  console.log(`${nom} est un Poussin`);
+} else if (age1 >= 8 && age1 <= 9) {
+  // ? 10 >= 0 true && 10 <= 9 false == > false
+  console.log(`${nom} est un Pupille`);
+} else {
+  console.log(`${nom} est un Minime`);
+}
+
+// solution 2
+if (age >= 10) {
+  console.log(`${nom} est un Minime`);
+} else if (age >= 8) {
+  console.log(`${nom} est un Pupille`);
+} else if (age >= 7) {
+  console.log(`${nom} est un Poussins`);
+}
+
+if (age >= 10) {
+  if (nom === 'mohamed') {
+    //! instructions
+  }
+}
+
+const nombre = prompt('saisir un nombre'); //
+
+console.log(typeof nombre);
+
+// switch
